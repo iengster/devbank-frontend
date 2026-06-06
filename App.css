@@ -1,0 +1,33 @@
+.App { text-align: center; }
+
+.App-header {
+  background: #1a2744;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+h1 { font-size: 3rem; margin-bottom: 0.25rem; color: #4fc3f7; }
+.tagline { font-size: 1.1rem; color: #90caf9; margin-bottom: 1.5rem; }
+.timestamp { font-size: 0.85rem; color: #78909c; margin-bottom: 2rem; }
+
+.accounts { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+
+.account-card {
+  background: #243257;
+  border: 1px solid #3a4d7a;
+  border-radius: 12px;
+  padding: 1.25rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 180px;
+}
+
+.account-type { font-size: 0.85rem; color: #90caf9; text-transform: uppercase; letter-spacing: 0.05em; }
+.account-balance { font-size: 1.5rem; font-weight: 600; color: #4fc3f7; }
